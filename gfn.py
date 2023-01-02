@@ -1,5 +1,6 @@
 import numpy as np
 import argparse
+
 import matplotlib.pyplot as plt
 from scipy import sparse
 import torch
@@ -14,6 +15,8 @@ import torch.nn.functional as F
 from torch.distributions.categorical import Categorical
 from copy import deepcopy
 
+def toy_function():
+    return None
 
 class MLP(nn.Module):
     def __init__(self, in_size, h_sizes, out_size):
